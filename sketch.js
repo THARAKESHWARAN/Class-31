@@ -64,8 +64,9 @@ function draw(){
 
     bird.display();
     platform.display();
+    bird.drawSmoke(); 
     //log6.display();
-    slingshot.display();    
+    slingshot.display();   
 }
 
 function mouseDragged(){
